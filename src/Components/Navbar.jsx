@@ -3,6 +3,7 @@ import { FaBars, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FaTimes } from "react-icons/fa"
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {SiNetlify} from 'react-icons/si'
 
 const Navbar = () => {
 
@@ -51,6 +52,13 @@ const Navbar = () => {
                             <a className='flex justify-between items-center w-full text-gray-300'
                                 href='https://github.com/kriRupali'>
                                 Github <FaGithub size={30} />
+                            </a>
+                        </li>
+
+                        <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-300' >
+                            <a className='flex justify-between items-center w-full text-gray-300'
+                                href='https://app.netlify.com/teams/krirupali/overview'>
+                                 Netlify <SiNetlify size={30} />
                             </a>
                         </li>
 
